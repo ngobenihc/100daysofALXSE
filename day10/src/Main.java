@@ -29,10 +29,14 @@ public class Main {
 
         profit = totalPrice - (totalPrice*increaseProfit);
 
+        double prot = totalPrice -profit;
+
 
         output ="she bought "+numberOfEggs + " and 5% of the eggs broke "+ brokeEggs+" and she  had to sell "+totalEggsToSell+" eggs and made R"+ totalPrice +" and 25% profit R"+ profit;
 
 
         System.out.println(output);
+        System.out.println(prot);
+
     }
 }
